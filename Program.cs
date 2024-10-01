@@ -1,20 +1,20 @@
-﻿float gpa = 83.5f;
+﻿float gpa = 76.5f;
 
 switch (gpa)
 {
-    case float n when (n >= 51.0f && n < 61.0f):
+    case float n when (n >= 51f && n < 61f):
         Console.WriteLine("E");
         break;
-    case float n when (n >= 61.0f && n < 71.0f):
+    case float n when (n >= 61f && n < 71f):
         Console.WriteLine("D");
         break;
-    case float n when (n >= 71.0f && n < 81.0f):
+    case float n when (n >= 71f && n < 81f):
         Console.WriteLine("C");
         break;
-    case float n when (n >= 81.0f && n < 91.0f):
+    case float n when (n >= 81f && n < 91f):
         Console.WriteLine("B");
         break;
-    case float n when (n >= 91.0f && n <= 100.0f):
+    case float n when (n >= 91f && n <= 100f):
         Console.WriteLine("A");
         break;
     default:
